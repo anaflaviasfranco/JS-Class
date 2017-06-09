@@ -1,0 +1,108 @@
+<meta charset="UTF-8"> <!-- charset é uma tributo que recebe o utf-8 --> 
+
+
+<!-- AULA 2 -->
+
+<script > //mundo javascript, tudo escrito aqui o navegador lê em javascript
+
+	document.write("A idade do Flávio é <br> 18");
+	document.write(" <br>");
+	//escrever um html dentro do script
+	//tipo texto é chamado de string
+	//pq usar o document.write? pq permite esccrever um codigo dinamico no mundo html
+	// como é feio no html ele reconhece tags como a <br>
+	//document.write(18); usa-se "" para tipo texto, para numero nao precisa 
+	//document.write(18 * 2); aceita contas dentro do parametro 
+	//operação de soma em tipo texto (""), nao aceita, ele concatena (junta um texto com o outro) ex: document.write("18" + "20"); = 1820
+	// string + numero tbm concatena (no tipo texto) pq qndo tem texto com numero ele joga tudo pra texto
+
+	//alert ("A idade do Flávio é 18");
+	//alert ("18");
+	//para o curso de lógica o ; nao faz mta diferença, mas é bom ja criar o habito 
+	//o alert precisa receber um parametro
+//--------------------------------------------
+	//document.write("Flávio nasceu em ");
+	//document.write(2016 - 39);
+
+//--------------------------------------------
+	//document.write(" A média das idades é ");
+	//document.write( (20 + 10 + 30)/3)) ;
+	//document.write(" <br>");
+	//document.write(" A soma das idades é "+ (20+10+30)/3);
+	//document.write(" <br>");
+//-------------------------------------------
+	//document.write(" Flávio nasceu em " + (2016-39));
+	//document.write(" <br>");
+	//document.write(" Joaquim nasceu em " + (2016-20));
+
+
+
+
+//      AULA 3 
+//    variaveis
+
+
+	var ano = 2016;
+	// variavel ano recebe 2016
+	//alterar o valor que ano recebe faz com que todas as linhas que tenham  a variavel ano alterem para o novo valor 
+	//o javascript nao vai receber ano como string, string é só o que vem entre ""
+
+//	document.write("Flávio tem " + (ano - 1977) + " anos");
+//	document.write("<br>");
+
+//	document.write("Joaquim tem " + (ano -   1996) + " anos");
+
+//	document.write("<br>");
+
+	//ano = 2017;
+	//o JS lê linha por linha, então a partir desse linha ele lê ano = 2017
+	//só usa o var quando declara a variavel pela primeira vez
+
+//	document.write("barney tem " + (ano - 
+//        1976) + " anos");
+	
+//	document.write("<br>");
+
+//_____________________________________________________________________
+	//variavel = tudo que varia (ex o ano)
+
+//	document.write("A media das idades é" + (39 + 20 + 41)/3);
+
+//	var idadeFlavio = 39;
+//	var idadeJoaquim = 20;
+//	var idadebarney = 41;
+//	var media = ( idadeFlavio + idadeJoaquim + idadebarney)/3;
+//	variavel nova precisa ser declarada
+//	document.write("A média das idades é " +  Math.round( media));
+
+//Math.round(); -> arredondar o valor 
+
+//	var nome = "Flávio"
+
+//document.write("<br>");
+//	document.write(" <br> A idade de " + nome + " é " + idadeFlavio);
+
+
+//    ############  AULA 4 ############
+
+
+
+	var ano = 2016;
+	var puloLinha = "<br>";
+	// a variavel puloLinha faz o programa pular linha de acordo com a quantidade de "<br>" declarados
+	
+
+	document.write("Flávio tem " + (ano - 1977) + " anos");
+	document.write(puloLinha);
+
+	document.write("Joaquim tem " + (ano -   1996) + " anos");
+	document.write(puloLinha);
+
+	ano = 2017
+
+	document.write("barney tem " + (ano - 1976) + " anos");
+
+
+
+
+</script>

@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+
+<script>
+
+   //   AULA 3 
+//    variaveis
+
+
+	var ano = 2016;
+	// variavel ano recebe 2016
+	//alterar o valor que ano recebe faz com que todas as linhas que tenham  a variavel ano alterem para o novo valor 
+	//o javascript nao vai receber ano como string, string é só o que vem entre ""
+
+	document.write("Flávio tem " + (ano - 1977) + " anos");
+	document.write("<br>");
+
+	document.write("Joaquim tem " + (ano -   1996) + " anos");
+
+	document.write("<br>");
+
+	ano = 2017;
+	//o JS lê linha por linha, então a partir desse linha ele lê ano = 2017
+	//só usa o var quando declara a variavel pela primeira vez
+
+	document.write("barney tem " + (ano - 
+        1976) + " anos");
+	
+	document.write("<br>");
+
+//_______________________________________________________
+	//variavel = tudo que varia (ex o ano)
+
+	document.write("A media das idades é" + (39 + 20 + 41)/3);
+
+	var idadeFlavio = 39;
+	var idadeJoaquim = 20;
+	var idadebarney = 41;
+	var media = ( idadeFlavio + idadeJoaquim + idadebarney)/3;
+	variavel nova precisa ser declarada
+	document.write("A média das idades é " +  Math.round( media));
+
+	//Math.round(); -> arredondar o valor 
+
+	var nome = "Flávio"
+
+document.write("<br>");
+	document.write(" <br> A idade de " + nome + " é " + idadeFlavio);
+
+
+
+</script>
